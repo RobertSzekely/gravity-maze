@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC52628C1C988A8400859C86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC52628B1C988A8400859C86 /* AppDelegate.swift */; };
+		FC52628E1C988A8400859C86 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FC52628D1C988A8400859C86 /* GameScene.sks */; };
+		FC5262901C988A8400859C86 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC52628F1C988A8400859C86 /* GameScene.swift */; };
+		FC5262921C988A8400859C86 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5262911C988A8400859C86 /* GameViewController.swift */; };
+		FC5262951C988A8400859C86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5262931C988A8400859C86 /* Main.storyboard */; };
+		FC5262971C988A8400859C86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5262961C988A8400859C86 /* Assets.xcassets */; };
+		FC52629A1C988A8400859C86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5262981C988A8400859C86 /* LaunchScreen.storyboard */; };
+		FC5262A51C988A8400859C86 /* GravityMazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5262A41C988A8400859C86 /* GravityMazeTests.swift */; };
+		FC5262B01C988A8400859C86 /* GravityMazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5262AF1C988A8400859C86 /* GravityMazeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC5262A11C988A8400859C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC5262801C988A8400859C86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC5262871C988A8400859C86;
+			remoteInfo = GravityMaze;
+		};
+		FC5262AC1C988A8400859C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC5262801C988A8400859C86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC5262871C988A8400859C86;
+			remoteInfo = GravityMaze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC5262881C988A8400859C86 /* GravityMaze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravityMaze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC52628B1C988A8400859C86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC52628D1C988A8400859C86 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FC52628F1C988A8400859C86 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FC5262911C988A8400859C86 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FC5262941C988A8400859C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC5262961C988A8400859C86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC5262991C988A8400859C86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC52629B1C988A8400859C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5262A01C988A8400859C86 /* GravityMazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravityMazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5262A41C988A8400859C86 /* GravityMazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityMazeTests.swift; sourceTree = "<group>"; };
+		FC5262A61C988A8400859C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5262AB1C988A8400859C86 /* GravityMazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GravityMazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5262AF1C988A8400859C86 /* GravityMazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GravityMazeUITests.swift; sourceTree = "<group>"; };
+		FC5262B11C988A8400859C86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC5262851C988A8400859C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC52629D1C988A8400859C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5262A81C988A8400859C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC52627F1C988A8400859C86 = {
+			isa = PBXGroup;
+			children = (
+				FC52628A1C988A8400859C86 /* GravityMaze */,
+				FC5262A31C988A8400859C86 /* GravityMazeTests */,
+				FC5262AE1C988A8400859C86 /* GravityMazeUITests */,
+				FC5262891C988A8400859C86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC5262891C988A8400859C86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC5262881C988A8400859C86 /* GravityMaze.app */,
+				FC5262A01C988A8400859C86 /* GravityMazeTests.xctest */,
+				FC5262AB1C988A8400859C86 /* GravityMazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC52628A1C988A8400859C86 /* GravityMaze */ = {
+			isa = PBXGroup;
+			children = (
+				FC52628B1C988A8400859C86 /* AppDelegate.swift */,
+				FC52628D1C988A8400859C86 /* GameScene.sks */,
+				FC52628F1C988A8400859C86 /* GameScene.swift */,
+				FC5262911C988A8400859C86 /* GameViewController.swift */,
+				FC5262931C988A8400859C86 /* Main.storyboard */,
+				FC5262961C988A8400859C86 /* Assets.xcassets */,
+				FC5262981C988A8400859C86 /* LaunchScreen.storyboard */,
+				FC52629B1C988A8400859C86 /* Info.plist */,
+			);
+			path = GravityMaze;
+			sourceTree = "<group>";
+		};
+		FC5262A31C988A8400859C86 /* GravityMazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5262A41C988A8400859C86 /* GravityMazeTests.swift */,
+				FC5262A61C988A8400859C86 /* Info.plist */,
+			);
+			path = GravityMazeTests;
+			sourceTree = "<group>";
+		};
+		FC5262AE1C988A8400859C86 /* GravityMazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC5262AF1C988A8400859C86 /* GravityMazeUITests.swift */,
+				FC5262B11C988A8400859C86 /* Info.plist */,
+			);
+			path = GravityMazeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC5262871C988A8400859C86 /* GravityMaze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5262B41C988A8400859C86 /* Build configuration list for PBXNativeTarget "GravityMaze" */;
+			buildPhases = (
+				FC5262841C988A8400859C86 /* Sources */,
+				FC5262851C988A8400859C86 /* Frameworks */,
+				FC5262861C988A8400859C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GravityMaze;
+			productName = GravityMaze;
+			productReference = FC5262881C988A8400859C86 /* GravityMaze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC52629F1C988A8400859C86 /* GravityMazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5262B71C988A8400859C86 /* Build configuration list for PBXNativeTarget "GravityMazeTests" */;
+			buildPhases = (
+				FC52629C1C988A8400859C86 /* Sources */,
+				FC52629D1C988A8400859C86 /* Frameworks */,
+				FC52629E1C988A8400859C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC5262A21C988A8400859C86 /* PBXTargetDependency */,
+			);
+			name = GravityMazeTests;
+			productName = GravityMazeTests;
+			productReference = FC5262A01C988A8400859C86 /* GravityMazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC5262AA1C988A8400859C86 /* GravityMazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5262BA1C988A8400859C86 /* Build configuration list for PBXNativeTarget "GravityMazeUITests" */;
+			buildPhases = (
+				FC5262A71C988A8400859C86 /* Sources */,
+				FC5262A81C988A8400859C86 /* Frameworks */,
+				FC5262A91C988A8400859C86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC5262AD1C988A8400859C86 /* PBXTargetDependency */,
+			);
+			name = GravityMazeUITests;
+			productName = GravityMazeUITests;
+			productReference = FC5262AB1C988A8400859C86 /* GravityMazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC5262801C988A8400859C86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Robert Szekely";
+				TargetAttributes = {
+					FC5262871C988A8400859C86 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = G97D5Y8Z3D;
+					};
+					FC52629F1C988A8400859C86 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = G97D5Y8Z3D;
+						TestTargetID = FC5262871C988A8400859C86;
+					};
+					FC5262AA1C988A8400859C86 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = G97D5Y8Z3D;
+						TestTargetID = FC5262871C988A8400859C86;
+					};
+				};
+			};
+			buildConfigurationList = FC5262831C988A8400859C86 /* Build configuration list for PBXProject "GravityMaze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC52627F1C988A8400859C86;
+			productRefGroup = FC5262891C988A8400859C86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC5262871C988A8400859C86 /* GravityMaze */,
+				FC52629F1C988A8400859C86 /* GravityMazeTests */,
+				FC5262AA1C988A8400859C86 /* GravityMazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC5262861C988A8400859C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC52628E1C988A8400859C86 /* GameScene.sks in Resources */,
+				FC52629A1C988A8400859C86 /* LaunchScreen.storyboard in Resources */,
+				FC5262971C988A8400859C86 /* Assets.xcassets in Resources */,
+				FC5262951C988A8400859C86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC52629E1C988A8400859C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5262A91C988A8400859C86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC5262841C988A8400859C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5262901C988A8400859C86 /* GameScene.swift in Sources */,
+				FC5262921C988A8400859C86 /* GameViewController.swift in Sources */,
+				FC52628C1C988A8400859C86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC52629C1C988A8400859C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5262A51C988A8400859C86 /* GravityMazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC5262A71C988A8400859C86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC5262B01C988A8400859C86 /* GravityMazeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC5262A21C988A8400859C86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC5262871C988A8400859C86 /* GravityMaze */;
+			targetProxy = FC5262A11C988A8400859C86 /* PBXContainerItemProxy */;
+		};
+		FC5262AD1C988A8400859C86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC5262871C988A8400859C86 /* GravityMaze */;
+			targetProxy = FC5262AC1C988A8400859C86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC5262931C988A8400859C86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5262941C988A8400859C86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC5262981C988A8400859C86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5262991C988A8400859C86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC5262B21C988A8400859C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC5262B31C988A8400859C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC5262B51C988A8400859C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GravityMaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roobert95.GravityMaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC5262B61C988A8400859C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GravityMaze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roobert95.GravityMaze;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC5262B81C988A8400859C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = GravityMazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roobert95.GravityMazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GravityMaze.app/GravityMaze";
+			};
+			name = Debug;
+		};
+		FC5262B91C988A8400859C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GravityMazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roobert95.GravityMazeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GravityMaze.app/GravityMaze";
+			};
+			name = Release;
+		};
+		FC5262BB1C988A8400859C86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = GravityMazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roobert95.GravityMazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GravityMaze;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FC5262BC1C988A8400859C86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GravityMazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.roobert95.GravityMazeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GravityMaze;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC5262831C988A8400859C86 /* Build configuration list for PBXProject "GravityMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5262B21C988A8400859C86 /* Debug */,
+				FC5262B31C988A8400859C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5262B41C988A8400859C86 /* Build configuration list for PBXNativeTarget "GravityMaze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5262B51C988A8400859C86 /* Debug */,
+				FC5262B61C988A8400859C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC5262B71C988A8400859C86 /* Build configuration list for PBXNativeTarget "GravityMazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5262B81C988A8400859C86 /* Debug */,
+				FC5262B91C988A8400859C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC5262BA1C988A8400859C86 /* Build configuration list for PBXNativeTarget "GravityMazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5262BB1C988A8400859C86 /* Debug */,
+				FC5262BC1C988A8400859C86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC5262801C988A8400859C86 /* Project object */;
+}
