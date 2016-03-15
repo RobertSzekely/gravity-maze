@@ -10,8 +10,19 @@ import SpriteKit
 import CoreMotion
 
 class GameScene: SKScene {
+    
+    let manager = CMMotionManager()
+    
     override func didMoveToView(view: SKView) {
-      
+    //starting the accelerometer and we're going to grab the data from that and use it accordingly
+        manager.startAccelerometerUpdates()
+        manager.accelerometerUpdateInterval = 0.1
+        manager.startAccelerometerUpdatesToQueue(NSOperationQueue.mainQueue()) {
+            (data, error) in
+            
+            self.physicsWorld.gravity = CGVectorMake(CGFloat((data?.acceleration.x)!), CGFloat((data?.acceleration.y)!))
+        }
+    
       
     }
     
