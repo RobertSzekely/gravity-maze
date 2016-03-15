@@ -20,7 +20,7 @@ class GameScene: SKScene {
         manager.startAccelerometerUpdatesToQueue(NSOperationQueue.mainQueue()) {
             (data, error) in
             
-            self.physicsWorld.gravity = CGVectorMake(CGFloat((data?.acceleration.x)!), CGFloat((data?.acceleration.y)!))
+            self.physicsWorld.gravity = CGVectorMake(CGFloat((data?.acceleration.x)!) * 10, CGFloat((data?.acceleration.y)!) * 10)
         }
     
       
