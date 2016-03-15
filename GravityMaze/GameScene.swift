@@ -9,12 +9,22 @@
 import SpriteKit
 import CoreMotion
 
-class GameScene: SKScene {
+class GameScene: SKScene, SKPhysicsContactDelegate {
     
     let manager = CMMotionManager()
+    var player = SKSpriteNode()
+    var endNone = SKSpriteNode()
     
     override func didMoveToView(view: SKView) {
-    //starting the accelerometer and we're going to grab the data from that and use it accordingly
+        
+        self.physicsWorld.contactDelegate = self
+        
+        
+        player = self.childNodeWithName("player") as! SKSpriteNode
+        
+        endNone = self.childNodeWithName("endNode") as! SKSpriteNode
+        
+        //starting the accelerometer and we're going to grab the data from that and use it accordingly
         manager.startAccelerometerUpdates()
         manager.accelerometerUpdateInterval = 0.1
         manager.startAccelerometerUpdatesToQueue(NSOperationQueue.mainQueue()) {
@@ -26,6 +36,15 @@ class GameScene: SKScene {
       
     }
     
+    func didBeginContact(contact: SKPhysicsContact) {
+        var bodyA = contact.bodyA
+        var bodyB = contact.bodyB
+        
+        if bodyA.categoryBitMask == 1 && bodyB.categoryBitMask == 2 || bodyA.categoryBitMask == 2 && bodyB.categoryBitMask == 1 {
+            //EndScene
+            print("You won!")
+        }
+    }
 
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
